@@ -1,0 +1,54 @@
+.nav {
+  height: 50px; /* nav의 박스 크기*/
+  border-bottom: 1px solid black; /*nav박스 밑에 검은 줄*/
+  display: flex; /*요소들 정렬*/
+  align-items: center; /*박스 안에서 정렬 (상단 중간 하단)*/
+}
+.home_name{
+  margin-left: 20px;
+}
+.nav_item{
+  display: flex; /*요소들 정렬*/
+  margin-left: auto; /*왼쪽 여백*/
+  margin-right: 10px; /*오른쪽 여백*/
+}
+
+.nav_item li{
+  display: inline;
+  margin-left: 30px;
+}
+.nav_item li a{color: black;}
+
+.title{
+  text_align: center;
+  font_size: 3.5rem;
+  font-weight: bold;
+}
+.subtitle{
+  text_align: center;
+  font_size: 1.25rem;
+  font_weight: 300;
+}
+
+.my-item{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.my-thing{
+  font_size: 1.5rem;
+  background: rgba(0,0,0,.03);
+  text-align: center;
+  height: 53px;
+  line-height: 53px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+.my-detail{
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 20px;
+}
